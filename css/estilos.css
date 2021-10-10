@@ -505,11 +505,9 @@ p {
     border-radius: 4px;
     margin: auto auto auto 32px;
     justify-self: flex-start;
-    background: #000066;
     transition: transform 0.3s ease-in-out;
   }
   .icon__menu:hover {
-    background-color: #4a93f3;
     transform: scale(1.1);
   }
 
@@ -921,8 +919,8 @@ h2 {
   border-radius: 16px;
   width: 280px;
   height: 360px;
-  padding: 24px;
-  margin: 12px;
+  padding: 16px;
+  margin: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
 }
 .vision-pics h4 {

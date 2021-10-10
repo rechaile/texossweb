@@ -274,10 +274,8 @@ p{
     border-radius: 4px;
     margin: auto auto auto 32px;
     justify-self: flex-start;
-    background: $colormain1;
     transition: transform 0.3s ease-in-out;
         &:hover {
-        background-color: $colormain2;
         transform: scale(1.1);}
         
 }
