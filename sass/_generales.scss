@@ -71,7 +71,7 @@ h1 {
 }
 
 h3 {
-    @include subtitulos ($colormain2, 20px, left);
+    @include subtitulos ($colormain2, 20px, center);
 }
 
 h4 {
