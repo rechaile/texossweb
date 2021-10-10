@@ -1,0 +1,53 @@
+/** Modales**/
+
+.modal__bg {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  
+ .modal {
+    display:block;
+    background: $colorfondo;
+    padding: 16px;
+    width: 50%;
+    min-width: 320px;
+    border-radius: 16px;
+        .exit{
+        display:block;
+        width:32px;
+        margin: 0 16px 0;
+        background: $colormain2;
+        border-radius: 50%;
+        transition: transform 0.3s ease-in-out;
+            &:hover {
+            background: #0026ff;
+            transform: scale(1.2);
+            filter: invert(100%)
+            }
+        }
+        iframe {
+            width: 100%;
+            height: 60vh;
+            padding:16px;
+
+            @media screen and (max-width:768px) {
+                width: 320px;
+                height: 180px;
+                padding:16px;
+            }
+        }
+    }
+
+    @each $compania in lacaja, sancor, mapfre, experta, prevencion, caruso {
+        #modal__#{$compania}:target{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    }
+  

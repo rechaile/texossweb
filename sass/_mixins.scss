@@ -1,0 +1,14 @@
+@mixin subtitulos ($color, $size, $align) {
+    color: $color;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size;
+    text-align: $align;
+    padding: 16px;
+    margin:auto;
+}
+
+
+
+  
